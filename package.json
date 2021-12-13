@@ -53,7 +53,7 @@
     "opal-compiler": "^1.0.13",
     "portfinder": "^1.0.26",
     "puppeteer": "^5.1.0",
-    "rollup": "^2.58.3",
+    "rollup": "^2.60.1",
     "standard": "^14.3.3"
   },
   "peerDependencies": {

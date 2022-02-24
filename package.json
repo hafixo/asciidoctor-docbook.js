@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/asciidoctor/asciidoctor-docbook.js",
   "devDependencies": {
-    "@asciidoctor/core": "^2.0.0-rc.1",
+    "@asciidoctor/core": "^2.2.6",
     "bestikk-download": "1.0.0",
     "bestikk-fs": "1.0.0",
     "bestikk-log": "0.1.0",

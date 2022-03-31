@@ -15,7 +15,9 @@
     "test": "npm run test:node && npm run test:browser",
     "test:node": "mocha",
     "test:browser": "node test/browser/run.js index.esm.html && node test/browser/run.js index.umd.html",
-    "lint": "standard test/**.js tasks/**.js"
+    "lint": "standard test/**.js tasks/**.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -63,5 +65,9 @@
     "env": {
       "mocha": true
     }
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
